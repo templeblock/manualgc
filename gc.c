@@ -14,7 +14,7 @@
 #include <string.h>
 #include <assert.h>
 
-#ifdef _MSC_VER
+#if defined(_MSC_VER)&&_MSC_VER<1200
 
 #define bool int
 #define true 1
