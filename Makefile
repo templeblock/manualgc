@@ -19,5 +19,6 @@ RM= del
 test.exe: test.c gc.c
 	$(CC) $@ $^
 
+	
 clean:
 	$(RM) test.exe
